@@ -32,11 +32,16 @@
 	display: flex;
 	justify-content: center;
 	.header-img {
-		position: absolute;
-		opacity: 1;
-		background-color: #000000d2;
-		
-		
+		position: relative;
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: rgba(0,0,0,.5);
+		}
 	}
 	.header-text {
 		display: inline-block;
