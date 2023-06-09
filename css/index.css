@@ -298,7 +298,7 @@ ul {
   transition: 0.3s;
 }
 .slideMenu-right a:hover {
-  color: #5a5656;
+  color: #c4c0c0;
 }
 .slideMenu-right .close-btn {
   position: absolute;
@@ -318,4 +318,82 @@ ul {
 }
 .open-btn:hover {
   background-color: #444;
+}
+
+.logo-animation {
+  display: flex;
+}
+.logo-animation li {
+  list-style: none;
+  font-size: 2em;
+  letter-spacing: 15px;
+  text-shadow: none;
+  animation: animate-logo 2s infinite;
+  -webkit-animation: animate-logo 2s infinite;
+}
+.logo-animation li:nth-child(1) {
+  animation-delay: 1s;
+}
+.logo-animation li:nth-child(2) {
+  animation-delay: 1.2s;
+}
+.logo-animation li:nth-child(3) {
+  animation-delay: 1.3s;
+}
+.logo-animation li:nth-child(4) {
+  animation-delay: 1.4s;
+}
+.logo-animation li:nth-child(5) {
+  animation-delay: 1.5s;
+}
+.logo-animation li:nth-child(6) {
+  animation-delay: 1.6s;
+}
+.logo-animation li:nth-child(7) {
+  animation-delay: 1.7s;
+}
+.logo-animation li:nth-child(8) {
+  animation-delay: 1.8s;
+}
+.logo-animation li:nth-child(9) {
+  animation-delay: 1.9s;
+}
+
+@keyframes animate-logo {
+  0% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  18% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  20% {
+    color: #2a88e0;
+    text-shadow: 0 0 7px #0059ff, 0 0 20px #0b85e9;
+  }
+  30% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  35% {
+    color: #2a88e0;
+    text-shadow: 0 0 7px #07137e, 0 0 20px #0b85e9;
+  }
+  70% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  85% {
+    color: #2a88e0;
+    text-shadow: 0 0 7px #000957, 0 0 20px #0b85e9;
+  }
+  90% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  100% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
 }
