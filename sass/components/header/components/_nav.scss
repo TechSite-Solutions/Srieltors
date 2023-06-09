@@ -11,24 +11,44 @@
 	transition: 0.5s;
   
 	a {
-	  padding: 8px 8px 8px 32px;
 	  text-decoration: none;
-	  font-size: 25px;
-	  color: #141414;
+	  color: #222222;
 	  display: block;
 	  transition: 0.3s;
-  
+	  border-bottom: 1px solid #444;
+	  font-weight: 400;
+	  font-size: 15px;
+	  padding:15px 0;
 	  &:hover {
-		color: #c4c0c0;
+	  color: #c4c0c0;
 	  }
 	}
-  
+	
+	.text-hello {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding: 10%;
+		line-height: 50px;
+		font-size: 20px;
+		color: #797979;
+	}
+	li {
+		margin-left: 44px;
+		
+		
+	}
+	
+
+	
+
 	.close-btn {
 	  position: absolute;
 	  top: 0;
 	  left: 25px;
 	  font-size: 36px;
 	  margin-right: 50px;
+	  border: none;
 	}
   }
   

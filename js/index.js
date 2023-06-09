@@ -1,5 +1,5 @@
 function openNav() {
-	document.getElementById("slideMenu").style.width = "428px";
+	document.getElementById("slideMenu").style.width = "380px";
 }
 
 function closeNav() {
