@@ -1,0 +1,84 @@
+.logo-animation {
+  display: flex;
+  li {
+    list-style: none;
+    font-size: 2em;
+    letter-spacing: 15px;
+    text-shadow: none;
+    animation: animate-logo 2s infinite linear;
+    -webkit-animation: animate-logo 2s infinite linear;
+    &:nth-child(1) {
+      animation-delay: 1s;
+    }
+
+    &:nth-child(2) {
+      animation-delay: 2s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: 3s;
+    }
+
+    &:nth-child(4) {
+      animation-delay: 4s;
+    }
+
+    &:nth-child(5) {
+      animation-delay: 5s;
+    }
+
+    &:nth-child(6) {
+      animation-delay: 6s;
+    }
+
+    &:nth-child(7) {
+      animation-delay: 7s;
+    }
+
+    &:nth-child(8) {
+      animation-delay: 8s;
+    }
+
+    &:nth-child(9) {
+      animation-delay: 9s;
+    }
+  }
+}
+@keyframes animate-logo {
+  0% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  18% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  20% {
+    color: #2a88e0;
+    text-shadow: 0 0 7px #0059ff, 0 0 20px #0b85e9;
+  }
+  30% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  35% {
+    color: #2a88e0;
+    text-shadow: 0 0 7px #07137e, 0 0 20px #0b85e9;
+  }
+  70% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  85% {
+    color: #2a88e0;
+    text-shadow: 0 0 7px #000957, 0 0 20px #0b85e9;
+  }
+  90% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+  100% {
+    color: #2a88e0;
+    text-shadow: none;
+  }
+}
