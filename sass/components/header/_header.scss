@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
   .tell {
     ul {
       display: flex;
@@ -26,6 +27,10 @@
       display: flex;
       li {
         margin-right: 15px;
+		font-size: 1.2em;
+		&:nth-child(3) {
+			font-weight: bold;
+		}
       }
     }
   }
