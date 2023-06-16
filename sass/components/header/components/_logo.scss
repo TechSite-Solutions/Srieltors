@@ -8,13 +8,13 @@
     text-shadow: none;
     animation: animate-logo 3s infinite linear;
     -webkit-animation: animate-logo 3s infinite linear;
-	color: var(--color-h);
-    
+    color: var(--color-h);
+
     &:nth-child(1) {
-		font-size: 2.5em;
+      font-size: 2.5em;
       animation-delay: 1s;
     }
-	
+
     &:nth-child(2) {
       animation-delay: 2s;
     }
