@@ -24,4 +24,20 @@
       color: var(--color-h);
     }
   }
+  .border-foto {
+	position: relative;
+	
+	.border {
+		border: 2px solid #4741418a;
+		width: 450px;
+		height: 365px;
+		position: absolute;
+		top: 15%;
+		right: -16%;
+	}
+	.foto {
+		position: relative;
+		z-index: 5;
+	}
+  }
 }
