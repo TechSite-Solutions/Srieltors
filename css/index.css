@@ -749,7 +749,7 @@ h5 {
 }
 .author-inst .foto-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
   grid-template-rows: auto;
   gap: 50px;
   justify-content: center;
