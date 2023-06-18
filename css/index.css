@@ -273,6 +273,7 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-top: 2px solid var(--color-h);
 }
 .contacts-info li:first-child {
   flex-direction: column;
@@ -760,7 +761,6 @@ h5 {
 .author-inst {
   margin: 5%;
   text-align: center;
-  border-bottom: 2px solid var(--color-h);
 }
 .author-inst h2 {
   color: var(--color-h);
@@ -801,11 +801,14 @@ h5 {
   margin: 5%;
   background-color: #fff;
 }
-.newBuildings-gallery .link {
+.newBuildings-gallery li {
   text-align: center;
   margin-left: 11px;
 }
-.newBuildings-gallery .link h3 {
+.newBuildings-gallery li img {
+  width: 100%;
+}
+.newBuildings-gallery li h3 {
   letter-spacing: 4px;
   border: 8px double;
   padding: 5%;

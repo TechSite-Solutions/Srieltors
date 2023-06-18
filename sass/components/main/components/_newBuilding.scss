@@ -6,9 +6,12 @@
 		justify-content: center;
 		margin: 5%;
 		background-color: #fff;
-		.link {
+		li {
 			text-align: center;
 			margin-left: 11px;
+			img {
+				width: 100%;
+			}
 			h3 {
 				letter-spacing: 4px;
 				border: 8px double;
