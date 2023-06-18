@@ -1,0 +1,19 @@
+.newBuildings-gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+		grid-template-rows: auto;
+		gap: 50px;
+		justify-content: center;
+		margin: 5%;
+		background-color: #fff;
+		.link {
+			text-align: center;
+			margin-left: 11px;
+			h3 {
+				letter-spacing: 4px;
+				border: 8px double;
+				padding: 5%;
+				margin-top: -10px;
+			}
+		}
+}
