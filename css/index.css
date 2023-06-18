@@ -758,7 +758,7 @@ h5 {
 }
 
 .author-inst {
-  margin: 5% 0;
+  margin: 5%;
   text-align: center;
   border-bottom: 2px solid var(--color-h);
 }
@@ -790,4 +790,24 @@ h5 {
   border: 1px solid;
   background-color: var(--color-h);
   color: #fff;
+}
+
+.newBuildings-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
+  grid-template-rows: auto;
+  gap: 50px;
+  justify-content: center;
+  margin: 5%;
+  background-color: #fff;
+}
+.newBuildings-gallery .link {
+  text-align: center;
+  margin-left: 11px;
+}
+.newBuildings-gallery .link h3 {
+  letter-spacing: 4px;
+  border: 8px double;
+  padding: 5%;
+  margin-top: -10px;
 }
